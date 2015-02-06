@@ -1,0 +1,368 @@
+/*
+Theme Name:     Newsmag Child theme
+Theme URI: 		http://themeforest.net/user/tagDiv/portfolio
+Description:    Child theme made by tagDiv
+Author:         tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+Template:       Newsmag                             
+Version:        1
+*/
+
+@import url("../Newsmag/style.css");
+
+/*  ----------------------------------------------------------------------------
+    Post Image caption text align center and font size
+*/
+.wp-caption-text {
+text-align: center;
+font-size:14px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    ADTECH Billboard single article styling
+*/
+@media (max-width: 767px) {
+      .evoke_billboard_single {
+        margin-bottom: 10px;
+        margin-top: 10px!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .evoke_billboard_single {
+        margin-bottom: 20px;
+        margin-top: 20px!important;
+    }
+}
+  
+  
+@media (min-width: 1200px) {
+  .evoke_billboard_single {
+        margin-bottom: 20px;
+         margin-top: 20px!important;
+
+}
+}
+
+
+/*  ----------------------------------------------------------------------------
+    ADTECH Billboard page styling
+*/
+
+
+@media (max-width: 767px) {
+      .evoke_billboard_page {
+        margin-bottom: 10px;
+        margin-top: 10px!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .evoke_billboard_page {
+        margin-bottom: 20px;
+        margin-top: 20px!important;
+        margin-left: 25px;
+    }
+}
+  
+  
+@media (min-width: 1200px) {
+  .evoke_billboard_page {
+    margin-top: 20px!important;
+        margin-bottom: 20px;
+        margin-left: 25px;
+}
+}
+
+@media (min-width: 1200px) {
+#outer-wrap .header-search-wrap .dropdown-menu {
+  top:46px;
+}
+}
+
+/*  ----------------------------------------------------------------------------
+    ADTECH Billboard-2 Middle page styling
+*/
+
+
+@media (max-width: 767px) {
+      .evoke_billboard_middle_page {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .evoke_billboard_middle_page {
+        margin-bottom: 20px;
+    }
+}
+  
+  
+@media (min-width: 1200px) {
+  .evoke_billboard_middle_page {
+        margin-bottom: 30px;
+        margin-left: 25px;
+}
+}
+
+/*  ----------------------------------------------------------------------------
+    ADTECH Background page styling
+*/
+
+@media (min-width: 1000px) {
+.td-sub-footer-wrap {
+    position: relative;
+    z-index: 3;
+}
+}
+
+@media (min-width: 1000px) {
+.td-header-bg {
+    position: relative;
+    z-index: 3;
+}
+}
+
+@media (min-width: 1000px) {
+.td-header-menu-wrap {
+    position: relative;
+    z-index: 3;
+}
+}
+
+@media (min-width: 1000px) {
+#evoke_bg_left_page {
+  left: 50%;
+  margin-left: -762px;
+  margin-top: -205px;
+  position: fixed;
+  z-index: 1;
+}
+}
+
+@media (max-width: 999px) {
+#evoke_bg_left_page {
+display: none;
+}
+}
+
+@media (min-width: 1000px) {
+#evoke_bg_right_page {
+  left: 50%;
+  width:100%;
+  margin-left: 512px;
+  margin-top: -205px;
+  position: fixed;
+  z-index: 1;
+}
+}
+
+
+@media (max-width: 999px)  {
+#evoke_bg_right_page {
+display: none;
+}
+}
+
+
+@media (min-width: 1000px) {
+#evoke_bg_wrapper {
+ width: 1000px;
+  position: relative;
+  z-index: 0;
+}
+}
+
+@media (max-width: 999px)  {
+#evoke_bg_wrapper {
+display: none;
+}
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    ADTECH Background article styling
+*/
+
+
+@media (min-width: 1000px) {
+#evoke_bg_left_article {
+  left: 50%;
+  margin-left: -764px;
+  margin-top: -228px;
+  position: fixed;
+  z-index: 1;
+}
+}
+
+@media (max-width: 999px) {
+#evoke_bg_left_article {
+display: none;
+}
+}
+
+@media (min-width: 1000px) {
+#evoke_bg_right_article {
+  left: 50%;
+  width:100%;
+  margin-left: 514px;
+  margin-top: -228px;
+  position: fixed;
+  z-index: 1;
+}
+}
+
+
+@media (max-width: 999px)  {
+#evoke_bg_right_article {
+display: none;
+}
+}
+
+/* Don't display on mobile*/
+
+@media (max-width: 767px) {
+.home_rfm {
+display: none !important;
+}
+}
+
+/* Don't display on desktop*/
+
+@media (min-width: 768px) and (max-width: 9999px) {
+.home_rfd {
+display: none !important;
+}
+}
+
+
+/*  ----------------------------------------------------------------------------
+    ADTECH MPU Cat Page styling
+*/
+
+.adtech_cat_mpu {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+ .adtech_cat_mpu {
+  margin-left: 35px;
+}
+}
+
+
+/*  ----------------------------------------------------------------------------
+    ADTECH MPU single styling
+*/
+
+.adtech_single_mpu {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*  ----------------------------------------------------------------------------
+    Moving Block 13 Title box to the left and down
+*/
+@media (max-width: 767px) {
+      .td_module_14 .meta-info {
+      bottom: 20px !important;
+      }
+}
+      
+.td_module_14 .meta-info {
+      margin: 0px 40px 0px 0px;
+      bottom: -35px;
+      padding: 20px 10px 30px 10px;
+      background-color: #0091c6;
+      border-bottom: none;
+}
+
+.td_module_14 .meta-info .td-post-date {
+      display: none;
+}
+
+.td_module_14 .entry-title {
+   margin: -15px 0px -25px 0px;  
+}
+
+.td_module_14 .td-excerpt {
+      display: none;
+}
+
+.td_module_14 .td-module-thumb {
+      max-height: 443px !important;
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+.td_module_14 .td-module-thumb {
+      max-height: 329px !important;      
+}
+}
+
+/*  ----------------------------------------------------------------------------
+    Moving Block 10 Thumb pic to the right and removing 100% width on mobile
+*/
+@media (max-width: 767px) {
+.td_module_10 .entry-thumb {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+/*  ----------------------------------------------------------------------------
+    increase the padding on the block title
+*/
+
+.block-title > a, .block-title > span {
+      padding: 5px 15px 5px 15px;
+}
+
+/*  ----------------------------------------------------------------------------
+    Change the hover color on the title for Module 14
+*/
+
+.td_module_14:hover .entry-title a {
+      color: #ffffff!important;
+}
+
+.td_module_10:hover .entry-title a {
+      color: #27509e!important;
+}
+
+/*  ----------------------------------------------------------------------------
+    Remove the 100% width for inline billboards on mobile
+*/
+.td-a-rec-id-sidebar img, .td-a-rec-id-content_top img, .td-a-rec-id-content_inline img, .td-a-rec-id-content_bottom img, .td-a-rec-id-custom_ad_1 img, .td-a-rec-id-custom_ad_2 img, .td-a-rec-id-custom_ad_3 img {
+      width: 0px;
+}
+
+/*  ----------------------------------------------------------------------------
+    Styling the load more button on Homepage
+*/
+
+.td-load-more-wrap a {
+      font-size: 20px;
+      font-family: Open Sans;
+}
+
+/*  ----------------------------------------------------------------------------
+    Making the Polldaddy Poll responsive
+*/
+
+@media only screen and (max-width: 767px) {
+    .PDS_Poll { width: 100%; overflow:hidden; }
+    .PDS_Poll .pds-box-outer { padding: 0; }
+    .PDS_Poll .pds-box { width: 100% !important; border:none !important; background: none !important; }
+    .PDS_Poll .pds-input-label { width: 100% !important; margin-left: 0px; padding-left: 45px; }
+}
+
+
+
